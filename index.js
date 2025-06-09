@@ -1,8 +1,7 @@
 // Write your code in this file!
-const currentUser = 'Grace Hoppper';
-
-const welcomeMessage = 'Welcome to Flatbook, ${currentUser}!';
+const currentUser = 'Grace Hopeppr';
+const welcomeMessage = `Welcome to Flatbook,  ${currentUser}!`;
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
-const shortGreeting = "Welcome,!"
+const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
 const firstInitial = currentUser[0];
-const restOfName = currentUser.slice(1);
+currentUser.slice(0, 1);
